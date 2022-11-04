@@ -33,7 +33,7 @@ const Header = () => {
                     </C.DivFlexEnd>
                 </Col>
                 <Col><C.DivFlexEnd>Vale Up Soluções</C.DivFlexEnd></Col>
-                <Col></Col>
+                <Col><C.DivFlexCenter><C.ContactButton>Botão Padrão</C.ContactButton></C.DivFlexCenter></Col>
             </Row>
         </C.Header>
     )

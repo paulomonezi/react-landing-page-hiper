@@ -26,7 +26,12 @@ export const Li = styled.li`
 `
 
 export const A = styled.a`
+color: #86709B;
+text-decoration: none;
 font-size: 9px;
+&:hover{
+  text-decoration: underline;
+}
 `
 
 export const DivFlexStart = styled.div`
@@ -42,4 +47,22 @@ export const DivFlexEnd = styled.div`
 export const DivFlexCenter = styled.div`
   display: flex;
   justify-content: center;
+`
+
+export const ContactButton = styled.button`
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #785DA6;
+  font-weight: 600;
+  width: 170px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #785DA6;
+  padding: 5px;
+  transition: 0.3s;
+    &:hover{
+      background-color: #FFC200;
+      border: 1px solid #FFC200
+  }
 `

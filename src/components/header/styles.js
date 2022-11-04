@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
     background-color: #f7f7f7;
+    height: 119px;
 `
 
 export const Nav = styled.nav`
@@ -24,11 +25,21 @@ export const Li = styled.li`
         }
 `
 
-export const A = styled.a``
+export const A = styled.a`
+font-size: 9px;
+`
 
-export const Img = styled.img``
+export const DivFlexStart = styled.div`
+  display: flex;
+  justify-content: start;
+`
 
 export const DivFlexEnd = styled.div`
   display: flex;
   justify-content: end;
+`
+
+export const DivFlexCenter = styled.div`
+  display: flex;
+  justify-content: center;
 `

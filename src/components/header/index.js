@@ -10,30 +10,31 @@ const Header = () => {
                 <Col>
                 </Col><Col>
                     <C.Nav>
-                        <C.Ul>
-                            <C.Li>
-                                <C.A href='#'>Home</C.A>
-                            </C.Li>
-                            <C.Li>
-                                <C.A href='#'>Quem somos</C.A>
-                            </C.Li>
-                            <C.Li>
-                                <C.A href='#'>Fale conosco</C.A>
-                            </C.Li>
-                        </C.Ul>
+                        <C.DivFlexCenter>
+                            <C.Ul>
+                                <C.Li>
+                                    <C.A href='#'>Home</C.A>
+                                </C.Li>
+                                <C.Li>
+                                    <C.A href='#'>Quem somos</C.A>
+                                </C.Li>
+                                <C.Li>
+                                    <C.A href='#'>Fale conosco</C.A>
+                                </C.Li>
+                            </C.Ul>
+                        </C.DivFlexCenter>
                     </C.Nav>
                 </Col>
             </Row>
             <Row>
                 <Col>
                     <C.DivFlexEnd>
-                        <C.Img src={Logo}></C.Img>
+                        <img src={Logo}></img>
                     </C.DivFlexEnd>
                 </Col>
-                <Col></Col>
+                <Col><C.DivFlexEnd>Vale Up Soluções</C.DivFlexEnd></Col>
                 <Col></Col>
             </Row>
-
         </C.Header>
     )
 }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
     background-color: #f7f7f7;
-    height: 119px;
+    min-height: 120px;
 `
 
 export const Nav = styled.nav`
@@ -15,8 +15,7 @@ export const Ul = styled.ul`
 `
 
 export const Li = styled.li`
- &:nth-child(1),
- &:nth-child(2) {
+ &:nth-child(-n+2) {
           &:after {
             content: "|";
             padding-left: 10px;
@@ -53,12 +52,12 @@ export const ContactButton = styled.button`
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #785DA6;
+  color: #6A4B9D;
   font-weight: 600;
   width: 170px;
   height: 35px;
   border-radius: 5px;
-  border: 1px solid #785DA6;
+  border: 1px solid #6A4B9D;
   padding: 5px;
   transition: 0.3s;
     &:hover{

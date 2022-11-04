@@ -4,16 +4,21 @@ import GlobalStyle from './styles/global';
 import Header from './components/header/';
 import Banner from './components/banner';
 import Main from './components/main';
+import Segments from './components/segments';
 
 function App() {
   return (
     <>
-    <Header/>
-    <Banner/>
-    <Main/>
-    <GlobalStyle/>
+      <div class="table-responsive">
+        <table class="table">
+          <Header />
+          <Banner />
+          <Main />
+          <Segments />
+          <GlobalStyle />
+        </table>
+      </div>
     </>
-   
   );
 }
 

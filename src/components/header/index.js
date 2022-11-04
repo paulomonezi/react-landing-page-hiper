@@ -29,7 +29,7 @@ const Header = () => {
             <Row>
                 <Col>
                     <C.DivFlexEnd>
-                        <img src={Logo}></img>
+                        <img src={Logo}/>
                     </C.DivFlexEnd>
                 </Col>
                 <Col><C.DivFlexEnd>Vale Up Soluções</C.DivFlexEnd></Col>

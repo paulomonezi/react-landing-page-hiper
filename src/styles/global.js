@@ -5,7 +5,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;    
+    
 }
 `
 

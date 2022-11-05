@@ -10,13 +10,11 @@ function App() {
   return (
     <>
       <div class="table-responsive">
-        <table class="table">
           <Header />
           <Banner />
           <Main />
           <Segments />
           <GlobalStyle />
-        </table>
       </div>
     </>
   );

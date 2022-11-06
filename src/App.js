@@ -5,16 +5,18 @@ import Header from './components/header/';
 import Banner from './components/banner';
 import Main from './components/main';
 import Segments from './components/segments';
+import SliderSection from './components/sliderSection';
 
 function App() {
   return (
     <>
       <div class="table-responsive">
-          <Header />
-          <Banner />
-          <Main />
-          <Segments />
-          <GlobalStyle />
+        <Header />
+        <Banner />
+        <Main />
+        <Segments />
+        <SliderSection />
+        <GlobalStyle />
       </div>
     </>
   );

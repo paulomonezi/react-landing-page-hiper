@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/react-landing-page-hiper/static/css/main.85768c17.css",
-    "main.js": "/react-landing-page-hiper/static/js/main.0fb26614.js",
+    "main.js": "/react-landing-page-hiper/static/js/main.8fa40359.js",
     "static/js/787.7ece47b9.chunk.js": "/react-landing-page-hiper/static/js/787.7ece47b9.chunk.js",
     "static/media/promobanner.png": "/react-landing-page-hiper/static/media/promobanner.8e377171f1f4d8ec8269.png",
+    "static/media/testimony-3.png": "/react-landing-page-hiper/static/media/testimony-3.a98bce23b3adbee30d81.png",
+    "static/media/testimony-4.png": "/react-landing-page-hiper/static/media/testimony-4.9024bfc7b4c300d951bf.png",
+    "static/media/testimony-1.png": "/react-landing-page-hiper/static/media/testimony-1.c65ddcf46673719632fa.png",
     "static/media/vendas.png": "/react-landing-page-hiper/static/media/vendas.1a2fcfc080585942bc15.png",
+    "static/media/testimony-2.png": "/react-landing-page-hiper/static/media/testimony-2.8ac32dbc604165e9f634.png",
+    "static/media/hiper_footer.svg": "/react-landing-page-hiper/static/media/hiper_footer.e6a3480f57ad7ecd8041418f5348cea5.svg",
     "index.html": "/react-landing-page-hiper/index.html",
     "main.85768c17.css.map": "/react-landing-page-hiper/static/css/main.85768c17.css.map",
-    "main.0fb26614.js.map": "/react-landing-page-hiper/static/js/main.0fb26614.js.map",
+    "main.8fa40359.js.map": "/react-landing-page-hiper/static/js/main.8fa40359.js.map",
     "787.7ece47b9.chunk.js.map": "/react-landing-page-hiper/static/js/787.7ece47b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85768c17.css",
-    "static/js/main.0fb26614.js"
+    "static/js/main.8fa40359.js"
   ]
 }

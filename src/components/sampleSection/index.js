@@ -8,9 +8,6 @@ const SampleSection = () => {
       <C.Section>
         SEÇÃO DE EXEMPLO
       </C.Section>
-      <C.Section>
-        SEÇÃO DE EXEMPLO
-      </C.Section>
     </Container>
   )
 }

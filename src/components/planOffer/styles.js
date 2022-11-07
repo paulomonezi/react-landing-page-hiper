@@ -13,12 +13,13 @@ border-radius: 10px;
 padding: 20px 20px 70px 20px;
 display: flex;
 flex-direction: column;
+position: relative;
+transition: 350ms ease-in-out;
     &:hover{
         color: #fff;
         background-color: #6A4B9D;
         transition: 350ms ease-in-out;
     }
-    position: relative;
 `
 
 export const Img = styled.img`

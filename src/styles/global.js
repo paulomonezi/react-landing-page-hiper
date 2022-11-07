@@ -5,8 +5,17 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+    a{
+        color: #FFF;
+        text-decoration: none;
+        &:hover{
+            color: #FFF;
+            text-decoration: underline;
+        }
+    }
 }
 `
+
 
 export default GlobalStyle

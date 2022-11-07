@@ -1,6 +1,5 @@
 import React from 'react'
 import * as C from './styles'
-import { Row, Col } from 'react-bootstrap'
 import lojas from '../../images/segments/lojas.png'
 import moda from '../../images/segments/moda.png'
 import padarias from '../../images/segments/padarias.png'
@@ -15,20 +14,20 @@ import servicos from '../../images/segments/servicos.png'
 const Segments = () => {
     return (
         <C.Section>
-            <Row >
+            <C.RowSegment>
                 <C.ColSegment><C.Card><C.Img src={lojas} /><C.Span>Lojas</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={moda} /><C.Span>Moda</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={padarias} /><C.Span>Padarias</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={calcados} /><C.Span>Calçados</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={eletronicos} /><C.Span>Eletrônicos</C.Span></C.Card></C.ColSegment>
-            </Row>
-            <Row>
+            </C.RowSegment>
+            <C.RowSegment>
                 <C.ColSegment><C.Card><C.Img src={construcao} /><C.Span>Construção</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={acougue} /><C.Span>Açougue</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={livrarias} /><C.Span>Livrarias</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={mercados} /><C.Span>Mercados</C.Span></C.Card></C.ColSegment>
                 <C.ColSegment><C.Card><C.Img src={servicos} /><C.Span>Serviços</C.Span></C.Card></C.ColSegment>
-            </Row>
+            </C.RowSegment>
             <div><C.P><C.Link href=''>Ver todos os segmentos</C.Link></C.P></div>
         </C.Section>
     )

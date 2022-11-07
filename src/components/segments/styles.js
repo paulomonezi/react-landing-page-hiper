@@ -35,6 +35,10 @@ max-width: 225px;
 padding: 3px;
 `
 
+export const RowSegment = styled.div`
+display: flex;
+`
+
 export const P = styled.p`
     order: 100;
     padding: 20px 8px;

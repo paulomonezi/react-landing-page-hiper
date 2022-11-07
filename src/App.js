@@ -6,6 +6,8 @@ import Banner from './components/banner';
 import Main from './components/main';
 import Segments from './components/segments';
 import SliderSection from './components/sliderSection';
+import SampleSection from './components/sampleSection';
+import Plans from './components/planOffer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Main />
         <Segments />
         <SliderSection />
+        <SampleSection/>
+        <Plans/>
         <GlobalStyle />
       </div>
     </>

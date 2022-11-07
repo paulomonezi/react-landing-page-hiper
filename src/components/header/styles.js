@@ -60,6 +60,7 @@ export const ContactButton = styled.button`
   border: 1px solid #6A4B9D;
   padding: 5px;
   transition: 0.3s;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 16%);
     &:hover{
       background-color: #FFC200;
       border: 1px solid #FFC200

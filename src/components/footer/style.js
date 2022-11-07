@@ -12,7 +12,7 @@ export const Footer = styled.footer`
 
 export const CopyRight = styled.div`
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
     border-top: 1px solid rgba(106, 75, 157, 0.877188);
     width: 100vw;
     padding: 10px;

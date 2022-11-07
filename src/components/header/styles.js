@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
     background-color: #f7f7f7;
     min-height: 120px;
+    overflow-x: hidden;
 `
 
 export const Nav = styled.nav`

@@ -7,6 +7,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 min-height: 300px;
+overflow-x: hidden;
 `
 
 export const H2 = styled.h2`

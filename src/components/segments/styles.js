@@ -5,6 +5,7 @@ export const Section = styled.section`
 color: #6A4B9D;
 margin-left: 20%;
 margin-right: 20%;
+overflow-x: hidden;
 `
 
 export const Card = styled.div`

@@ -4,6 +4,7 @@ export const Section = styled.section`
 min-height: 240px;
 color: #6A4B9D;
 margin-top: 5%;
+overflow-x: hidden;
 `
 
 export const H1 = styled.h1`

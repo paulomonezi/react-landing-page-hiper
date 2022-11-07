@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
     min-height: 520px;
     background: linear-gradient(97deg, rgba(106, 75, 157, 0.877188) 0%, #a84ad3 100%);
+    overflow-x: hidden;
 `
 
 export const Container = styled.div`

@@ -20,7 +20,6 @@ transition: 350ms ease-in-out;
         background-color: #6A4B9D;
         transition: 350ms ease-in-out;
         .btn-focus{
-            text-decoration: underline;
             background: #FFC200;
             color: #6a4b9d;
         }
@@ -78,6 +77,9 @@ export const Button = styled.button`
     text-decoration: none;
     border-radius: 5px !important;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 16%);
+    &:hover{
+        text-decoration: underline;
+    }
 `
 
 export const List = styled.ul`

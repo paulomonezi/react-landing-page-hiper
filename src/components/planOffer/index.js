@@ -18,7 +18,7 @@ const Plans = () => {
                             <C.H3>Hiper<br></br>Gestão</C.H3>
                             <C.CardText>Para quem quer ter um maior controle e crescer</C.CardText>
                             <C.CardText>Com o Hiper Gestão você consegue controlar suas vendas e estoque, cadastrar clientes, cadastrar produtos com imagem e controlar seu financeiro. Pode também emitir nota fiscal de produtos (NF-e) ilimitada e fazer a gestão de comissão de vendas.</C.CardText>
-                            <C.Button>Experimente grátis</C.Button>
+                            <C.ButtonFocus>Experimente grátis</C.ButtonFocus>
                             <C.ListWrapper>
                                 <C.List>
                                     <li>
@@ -59,7 +59,7 @@ const Plans = () => {
                             <C.H3>Hiper<br></br>Gestão</C.H3>
                             <C.CardText>Para quem quer ter um maior controle e crescer</C.CardText>
                             <C.CardText>Com o Hiper Gestão você consegue controlar suas vendas e estoque, cadastrar clientes, cadastrar produtos com imagem e controlar seu financeiro. Pode também emitir nota fiscal de produtos (NF-e) ilimitada e fazer a gestão de comissão de vendas.</C.CardText>
-                            <C.Button>Experimente grátis</C.Button>
+                            <C.Button className='btn-focus'>Experimente grátis</C.Button>
                             <C.ListWrapper>
                                 <C.List>
                                     <li>
@@ -100,7 +100,7 @@ const Plans = () => {
                             <C.H3>Hiper<br></br>Gestão</C.H3>
                             <C.CardText>Para quem quer ter um maior controle e crescer</C.CardText>
                             <C.CardText>Com o Hiper Gestão você consegue controlar suas vendas e estoque, cadastrar clientes, cadastrar produtos com imagem e controlar seu financeiro. Pode também emitir nota fiscal de produtos (NF-e) ilimitada e fazer a gestão de comissão de vendas.</C.CardText>
-                            <C.Button>Experimente grátis</C.Button>
+                            <C.Button className='btn-focus'>Experimente grátis</C.Button>
                             <C.ListWrapper>
                                 <C.List>
                                     <li>

@@ -19,6 +19,11 @@ transition: 350ms ease-in-out;
         color: #fff;
         background-color: #6A4B9D;
         transition: 350ms ease-in-out;
+        .btn-focus{
+            text-decoration: underline;
+            background: #FFC200;
+            color: #6a4b9d;
+        }
     }
 `
 
@@ -38,7 +43,7 @@ font-size: 12px;
 margin-bottom: 20px;
 `
 
-export const Button = styled.button`
+export const ButtonFocus = styled.button`
     align-self: center;
     margin: 50px 0 25px 0;
     width: 300px;
@@ -48,6 +53,26 @@ export const Button = styled.button`
     background: #FFC200;
     padding: 10px 30px;
     color: #6a4b9d;
+    font-weight: 600 !important;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px !important;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 16%);
+    &:hover{
+        text-decoration: underline;
+    }
+`
+
+export const Button = styled.button`
+    align-self: center;
+    margin: 50px 0 25px 0;
+    width: 300px;
+    display: block;
+    text-align: center;
+    border: none;
+    background: #E3E3E3;
+    padding: 10px 30px;
+    color: #A8A8A8;
     font-weight: 600 !important;
     font-size: 14px;
     text-decoration: none;

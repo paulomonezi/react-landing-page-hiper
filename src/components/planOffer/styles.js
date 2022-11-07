@@ -13,6 +13,19 @@ border-radius: 10px;
 padding: 20px 20px 70px 20px;
 display: flex;
 flex-direction: column;
+    &:hover{
+        color: #fff;
+        background-color: #6A4B9D;
+        transition: 350ms ease-in-out;
+    }
+    position: relative;
+`
+
+export const Img = styled.img`
+    position: absolute;
+    right: -20px;
+    top: -50px;
+    z-index: 100;
 `
 
 export const H3 = styled.h3`
@@ -41,24 +54,26 @@ export const Button = styled.button`
     box-shadow: 0px 1px 3px rgb(0 0 0 / 16%);
 `
 
+export const List = styled.ul`
+    position:relative;`
+
 export const Icon = styled.i`
     color: #ffc200;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder;
     margin-right: 10px;
     position: absolute;
+    left: 0px;
 `
 export const Span = styled.span`
-font-size: 12px;
-line-height: 20px;
-padding-bottom: 8px;
-margin-left: 20px;
-
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 8px;
 `
 
 export const ListWrapper = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: start;
-max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 250px;
 `

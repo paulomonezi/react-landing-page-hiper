@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { primaryColor } from "../../styles/variables";
 
 export const Header = styled.header`
     background-color: #f7f7f7;
@@ -53,12 +54,12 @@ export const ContactButton = styled.button`
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: #6A4B9D;
+  color: ${primaryColor};
   font-weight: 600;
   width: 170px;
   height: 35px;
   border-radius: 5px;
-  border: 1px solid #6A4B9D;
+  border: 1px solid ${primaryColor};
   padding: 5px;
   transition: 0.3s;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 16%);

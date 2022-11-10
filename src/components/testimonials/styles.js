@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { Row } from "react-bootstrap";
+import { primaryColor } from "../../styles/variables";
 
 export const Section = styled.section`
     background-color: #F7F7F7;
-    color: #6A4B9D;
+    color: ${primaryColor};
     display: flex;
     justify-content: center;
     align-items: center;

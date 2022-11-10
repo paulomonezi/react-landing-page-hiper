@@ -1,8 +1,9 @@
 import { Col } from "react-bootstrap";
 import styled from "styled-components";
+import { primaryColor } from "../../styles/variables";
 
 export const Section = styled.section`
-color: #6A4B9D;
+color: ${primaryColor};
 margin-left: 20%;
 margin-right: 20%;
 overflow-x: hidden;
@@ -48,12 +49,12 @@ export const P = styled.p`
     text-decoration: underline;
     font-weight: 600;
     margin: 20px 8px 0 auto;
-    color: #6a4b9d;
+    color: ${primaryColor};
 `
 
 export const Link = styled.a`
-    color: #6a4b9d;
+    color: ${primaryColor};
     &:hover{
-        color: #6a4b9d;
+        color: ${primaryColor};
     }
 `

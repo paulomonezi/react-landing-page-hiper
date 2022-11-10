@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { primaryColor } from "../../styles/variables";
 
 export const Section = styled.section`
 background-color: #f7f7f7;
-color: #6a4b9d;
+color: ${primaryColor};
 display: flex;
 justify-content: space-evenly;
 align-items: center;
@@ -26,7 +27,7 @@ export const Button = styled.button`
     border: none;
     background: #FFC200;
     padding: 10px 30px;
-    color: #6a4b9d;
+    color: ${primaryColor};
     font-weight: 600 !important;
     font-size: 14px;
     text-decoration: none;

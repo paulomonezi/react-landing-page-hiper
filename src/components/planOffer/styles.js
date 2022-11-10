@@ -1,14 +1,15 @@
 import styled from "styled-components";
+import { primaryColor } from "../../styles/variables";
 
 export const Section = styled.section`
 min-height: 100vh;
-color: #6A4B9D;
+color: ${primaryColor};
 `
 
 export const Card = styled.div`
 min-height: 70vh;
 max-width: 370px;
-border: solid 1.4px #6A4B9D;
+border: solid 1.4px ${primaryColor};
 border-radius: 10px;
 padding: 20px 20px 70px 20px;
 display: flex;
@@ -17,11 +18,11 @@ position: relative;
 transition: 350ms ease-in-out;
     &:hover{
         color: #fff;
-        background-color: #6A4B9D;
+        background-color: ${primaryColor};
         transition: 350ms ease-in-out;
         .btn-focus{
             background: #FFC200;
-            color: #6a4b9d;
+            color: ${primaryColor};
         }
     }
 `
@@ -51,7 +52,7 @@ export const ButtonFocus = styled.button`
     border: none;
     background: #FFC200;
     padding: 10px 30px;
-    color: #6a4b9d;
+    color: ${primaryColor};
     font-weight: 600 !important;
     font-size: 14px;
     text-decoration: none;
